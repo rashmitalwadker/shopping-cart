@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+                    html {
+                        font-size: 62.5px;
+                        box-sizing: border-box;
+                    }
+                    
+                    body #root {
+                        height: 100vh;
+                        margin: 0px;
+                    }
+                    
+                    body,
+                    input,
+                    select,
+                    textarea {
+                        font-family: Helovetica, sans-serif, Arial;
+                        font-size: 0.5rem;
+                    }
+                    
+                    .grid_container {
+                        display: grid;
+                        grid-template-areas: "header" "main""footer";
+                        grid-template-rows: 1.8rem 1fr 2rem;
+                        grid-template-columns: 2fr;
+                        height: 200%;
+                    }
+                    
+                    header {
+                        grid-area: header;
+                        background-color: black;
+                        color: white;
+                        padding: 0.8rem 0px;
+                        width: 100%;
+                    }
+                    
+                    header a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                    
+                    a:hover {
+                        color: tomato;
+                    }
+                    
+                    main {
+                        grid-area: main;
+                    }
+                    
+                    footer {
+                        grid-area: footer;
+                        background-color: black;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
