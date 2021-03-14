@@ -1,0 +1,41 @@
+{
+    "products": [{
+            "_id": "dress1",
+            "dress_name": "dress1",
+            "image": "./images/1.jpg",
+            "description": "about dress 1",
+            "prize": "$14",
+            "available_sizes": ["xl", "xxl"]
+        }, {
+            "_id": "dress2",
+            "dress_name": "dress1",
+            "image": "./images/dress2.jpg",
+            "description": "about dress 2",
+            "prize": "$1333",
+            "available_sizes": ["xl", "xxl"]
+        }, {
+            "_id": "dress3",
+            "dress_name": "dress3",
+            "image": "./images/dress3.jpg",
+            "description": "about dress 3",
+            "prize": "$133",
+            "available_sizes": ["xl", "xxl"]
+        }, {
+            "_id": "dress4",
+            "dress_name": "dress4",
+            "image": "./images/dress4.jpg",
+            "description": "about dress 4",
+            "prize": "$13",
+            "available_sizes": ["xl", "xxl"]
+        }, {
+            "_id": "dress5",
+            "dress_name": "dress5",
+            "image": "./images/dress5.jpg",
+            "description": "about dress 1",
+            "prize": "$20 ",
+            "available_sizes": ["xl", "xxl"]
+        }
+
+
+    ]
+}
